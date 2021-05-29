@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Organización e Implementación</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Organizaci&#243;n e Implementaci&#243;n</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-9b34dd493d09437e88e26248f3104bab.png" alt="Organización e Implementación" usemap="#id-9b34dd493d09437e88e26248f3104babmap"/>
+			   <map name="id-9b34dd493d09437e88e26248f3104babmap">
+				  				<area shape="rect" coords="862,154,982,209" href="../elements/id-38811d0d3cce47199e4393ff0fcd779f.html"  target="element">
+
+				  		<area shape="rect" coords="826,118,1019,251" href="../elements/id-e5c491c1fd64455cbd21a9f2f473a1bd.html"  target="element">
+				  		<area shape="rect" coords="646,154,766,209" href="../elements/id-30981028417d4e81b23542121984b5bb.html"  target="element">
+				  						<area shape="rect" coords="226,106,346,161" href="../elements/id-873e80f82f2e4649a794d288b0561618.html"  target="element">
+				  								<area shape="rect" coords="382,274,502,329" href="../elements/id-a02e4799b34e4ab598015967b91b9003.html"  target="element">
+
+				  						<area shape="rect" coords="358,238,527,383" href="../elements/id-16ffa691280c4256ab0b73d28d5738aa.html"  target="element">
+				  								<area shape="rect" coords="394,178,491,215" href="../elements/id-3e0d210ebfe746199e7a6c387ebf826e.html"  target="element">
+				  								<area shape="rect" coords="394,130,491,167" href="../elements/id-04e5a3626d9b49eab642f1dd4355c8be.html"  target="element">
+
+				  						<area shape="rect" coords="358,94,527,227" href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html"  target="element">
+				  								<area shape="rect" coords="82,322,179,359" href="../elements/id-2e30e4a4247240929e2c12d7c1478409.html"  target="element">
+				  								<area shape="rect" coords="82,274,179,311" href="../elements/id-0c3402d73c37430dae24a24f865a7723.html"  target="element">
+
+				  						<area shape="rect" coords="46,238,215,383" href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html"  target="element">
+				  								<area shape="rect" coords="82,166,179,203" href="../elements/id-edfbe0e99c9f4615b71879aee02c2098.html"  target="element">
+				  								<area shape="rect" coords="82,118,179,155" href="../elements/id-b9bf211d6ee14117bb74aef73bbef849.html"  target="element">
+
+				  						<area shape="rect" coords="46,94,215,227" href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html"  target="element">
+
+				  				<area shape="rect" coords="22,58,539,395" href="../elements/id-a87c4c731279421999e91dd192935e2b.html"  target="element">
+
+				  		<area shape="rect" coords="10,10,575,419" href="../elements/id-d01fdb474e1e4e40ae01611b6ac8adb0.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-d01fdb474e1e4e40ae01611b6ac8adb0.html" target="element"> Servidor </a> </td>
+											    <td> <a href="../elements/id-d01fdb474e1e4e40ae01611b6ac8adb0.html" target="element" class="i18n-elementtype-Node"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+													    <td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html" target="element"> Docker de env&#237;os </a> </td>
+															    <td> <a href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-b9bf211d6ee14117bb74aef73bbef849.html" target="element"> Python - Flask </a> </td>
+																	    <td> <a href="../elements/id-b9bf211d6ee14117bb74aef73bbef849.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-edfbe0e99c9f4615b71879aee02c2098.html" target="element"> SQLite </a> </td>
+																	    <td> <a href="../elements/id-edfbe0e99c9f4615b71879aee02c2098.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+															
+															<tr>
+															    <td> <a href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html" target="element"> Docker de pedidos </a> </td>
+															    <td> <a href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-0c3402d73c37430dae24a24f865a7723.html" target="element"> Python - Flask (copy) </a> </td>
+																	    <td> <a href="../elements/id-0c3402d73c37430dae24a24f865a7723.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-2e30e4a4247240929e2c12d7c1478409.html" target="element"> SQLite (copy) </a> </td>
+																	    <td> <a href="../elements/id-2e30e4a4247240929e2c12d7c1478409.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+															
+															<tr>
+															    <td> <a href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html" target="element"> Docker usuarios </a> </td>
+															    <td> <a href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-04e5a3626d9b49eab642f1dd4355c8be.html" target="element"> Python - Flask (copy) </a> </td>
+																	    <td> <a href="../elements/id-04e5a3626d9b49eab642f1dd4355c8be.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-3e0d210ebfe746199e7a6c387ebf826e.html" target="element"> SQLite (copy) </a> </td>
+																	    <td> <a href="../elements/id-3e0d210ebfe746199e7a6c387ebf826e.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+															
+															<tr>
+															    <td> <a href="../elements/id-16ffa691280c4256ab0b73d28d5738aa.html" target="element"> Docker GUI </a> </td>
+															    <td> <a href="../elements/id-16ffa691280c4256ab0b73d28d5738aa.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-a02e4799b34e4ab598015967b91b9003.html" target="element"> Angular JS </a> </td>
+																	    <td> <a href="../elements/id-a02e4799b34e4ab598015967b91b9003.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+																	</tr>
+
+															
+															<tr>
+															    <td> <a href="../elements/id-873e80f82f2e4649a794d288b0561618.html" target="element"> Nginx </a> </td>
+															    <td> <a href="../elements/id-873e80f82f2e4649a794d288b0561618.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+													
+											
+											<tr>
+											    <td> <a href="../elements/id-30981028417d4e81b23542121984b5bb.html" target="element"> Red </a> </td>
+											    <td> <a href="../elements/id-30981028417d4e81b23542121984b5bb.html" target="element" class="i18n-elementtype-Path"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-e5c491c1fd64455cbd21a9f2f473a1bd.html" target="element"> PC </a> </td>
+											    <td> <a href="../elements/id-e5c491c1fd64455cbd21a9f2f473a1bd.html" target="element" class="i18n-elementtype-Device"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-38811d0d3cce47199e4393ff0fcd779f.html" target="element"> Navegador </a> </td>
+													    <td> <a href="../elements/id-38811d0d3cce47199e4393ff0fcd779f.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-19cb5eb0adcd417a85e91730fc347458.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-19cb5eb0adcd417a85e91730fc347458.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/id-d01fdb474e1e4e40ae01611b6ac8adb0.html" target="element"> Servidor </a> </td>
+																		<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-d6aef09baf5a48a58d76b65f951dfe6d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d6aef09baf5a48a58d76b65f951dfe6d.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																				<td> <a href="../elements/id-16ffa691280c4256ab0b73d28d5738aa.html" target="element"> Docker GUI </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-244255f0aff94e34a4a0b4a687e63e72.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-244255f0aff94e34a4a0b4a687e63e72.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																				<td> <a href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html" target="element"> Docker usuarios </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-5d467ef0bed54f4193d2405ff94caa78.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-5d467ef0bed54f4193d2405ff94caa78.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																				<td> <a href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html" target="element"> Docker de env&#237;os </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-7bed2ae32b7f412aa193ea5570281363.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7bed2ae32b7f412aa193ea5570281363.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																				<td> <a href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html" target="element"> Docker de pedidos </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-ceb29189288f4bb9b66df6b25a04bc94.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ceb29189288f4bb9b66df6b25a04bc94.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-a87c4c731279421999e91dd192935e2b.html" target="element"> Docker-compose </a> </td>
+																				<td> <a href="../elements/id-873e80f82f2e4649a794d288b0561618.html" target="element"> Nginx </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-1ab9472af7ee478895c5f3006a16da1f.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-1ab9472af7ee478895c5f3006a16da1f.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html" target="element"> Docker de env&#237;os </a> </td>
+																						<td> <a href="../elements/id-b9bf211d6ee14117bb74aef73bbef849.html" target="element"> Python - Flask </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-9b02c55361a5449a93af4ec50424bdca.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-9b02c55361a5449a93af4ec50424bdca.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-b16a54dec7224fe78686102371b2b9c1.html" target="element"> Docker de env&#237;os </a> </td>
+																						<td> <a href="../elements/id-edfbe0e99c9f4615b71879aee02c2098.html" target="element"> SQLite </a> </td>
+																					</tr>
+
+															
+																					<tr>
+																						<td> <a href="../elements/id-2d662a3ce40d4e238d443b93325ab759.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-2d662a3ce40d4e238d443b93325ab759.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html" target="element"> Docker de pedidos </a> </td>
+																						<td> <a href="../elements/id-0c3402d73c37430dae24a24f865a7723.html" target="element"> Python - Flask (copy) </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-fa892207c5664346bd3611f9598a9666.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-fa892207c5664346bd3611f9598a9666.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-f280230b8b994de7b3acd1775c9f7e49.html" target="element"> Docker de pedidos </a> </td>
+																						<td> <a href="../elements/id-2e30e4a4247240929e2c12d7c1478409.html" target="element"> SQLite (copy) </a> </td>
+																					</tr>
+
+															
+																					<tr>
+																						<td> <a href="../elements/id-d7514cfa6bda4ea49f8e5d87952136df.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-d7514cfa6bda4ea49f8e5d87952136df.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html" target="element"> Docker usuarios </a> </td>
+																						<td> <a href="../elements/id-04e5a3626d9b49eab642f1dd4355c8be.html" target="element"> Python - Flask (copy) </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-09eb037665124720bf759bf3ca1fc7b8.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-09eb037665124720bf759bf3ca1fc7b8.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-bb52180840de46a38f5a43fabd6d31d8.html" target="element"> Docker usuarios </a> </td>
+																						<td> <a href="../elements/id-3e0d210ebfe746199e7a6c387ebf826e.html" target="element"> SQLite (copy) </a> </td>
+																					</tr>
+
+															
+																					<tr>
+																						<td> <a href="../elements/id-74cb42dc424f456084bb078ae32b3e44.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-74cb42dc424f456084bb078ae32b3e44.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																						<td> <a href="../elements/id-16ffa691280c4256ab0b73d28d5738aa.html" target="element"> Docker GUI </a> </td>
+																						<td> <a href="../elements/id-a02e4799b34e4ab598015967b91b9003.html" target="element"> Angular JS </a> </td>
+																					</tr>
+
+															
+													
+											
+																	<tr>
+																		<td> <a href="../elements/id-c8ab1249712449c1b081a6560ac21ab1.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-c8ab1249712449c1b081a6560ac21ab1.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/id-e5c491c1fd64455cbd21a9f2f473a1bd.html" target="element"> PC </a> </td>
+																		<td> <a href="../elements/id-38811d0d3cce47199e4393ff0fcd779f.html" target="element"> Navegador </a> </td>
+																	</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
