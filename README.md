@@ -62,5 +62,5 @@ Modelo de Vistas de una arquitectura orientada a una tienda de barrio
 ### Uso de Aplicación
 ![4](https://user-images.githubusercontent.com/71359745/120081361-ea0e0180-c082-11eb-9259-71e2b790aa80.png)
 
-### Por Capas
+### Uso de aplicación
 ![5](https://user-images.githubusercontent.com/71359745/120081363-ea0e0180-c082-11eb-8d0b-5779b4116600.png)
