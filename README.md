@@ -32,8 +32,14 @@ Modelo de Vistas de una arquitectura orientada a una tienda de barrio
 ### Infraestructura
 ![image](https://user-images.githubusercontent.com/41120463/120081623-2db53b00-c084-11eb-98c4-f19af7a2d3f3.png)
 
-## Organización Domicilio
+### Organización Domicilio
 ![image](https://user-images.githubusercontent.com/41120463/120081655-4f162700-c084-11eb-8cd4-c9eb79ee9879.png)
+
+### Organización e Implementación
+![OrganizaciónEImplementación](https://user-images.githubusercontent.com/12587275/120081705-897fc400-c084-11eb-9023-a3ab9d3e0b35.png)
+
+### Organización Tienda
+![Organización Tienda](https://user-images.githubusercontent.com/12587275/120081734-ac11dd00-c084-11eb-860e-86fff60856cf.png)
 
 
 
