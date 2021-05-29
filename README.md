@@ -1,3 +1,4 @@
+
 # Universidad Distrital Francisco José de Caldas
 
 ## Especialidad en Ingeniería de Software
@@ -27,6 +28,12 @@ Modelo de Vistas de una arquitectura orientada a una tienda de barrio
 
 ### Estructura de Aplicación 
 ![image](https://user-images.githubusercontent.com/41120463/120081137-79b2b080-c081-11eb-81e3-c90a789d35b3.png)
+
+### Estructura de información
+![11](https://user-images.githubusercontent.com/71359745/120081588-0cece580-c084-11eb-92a3-181c094d3dea.png)
+
+### Funciones de negocio
+![22](https://user-images.githubusercontent.com/71359745/120081589-0cece580-c084-11eb-95da-bbaa7c994e9e.png)
 
 ### Procesos de negocio
 ![1](https://user-images.githubusercontent.com/71359745/120081357-e8dcd480-c082-11eb-8b2b-cf1bc4837ef0.png)
