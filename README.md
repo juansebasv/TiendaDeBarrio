@@ -2,7 +2,7 @@
 
 ## Especialidad en Ingeniería de Software
 
-## Informatica 1
+## Informática 1
 
 ## Modelo Tienda de Barrio
 
