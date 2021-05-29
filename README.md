@@ -41,7 +41,8 @@ Modelo de Vistas de una arquitectura orientada a una tienda de barrio
 ### Organización Tienda
 ![Organización Tienda](https://user-images.githubusercontent.com/12587275/120081734-ac11dd00-c084-11eb-860e-86fff60856cf.png)
 
-
+### Por Capas
+![33](https://user-images.githubusercontent.com/71359745/120084433-b092c180-c095-11eb-94ee-fb38e53f536b.png)
 
 ### Estructura de Información
 ![11](https://user-images.githubusercontent.com/71359745/120081588-0cece580-c084-11eb-92a3-181c094d3dea.png)
