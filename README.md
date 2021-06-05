@@ -14,6 +14,27 @@
 
 Modelo de Vistas de una arquitectura orientada a una tienda de barrio
 
+### Diagramas:
+- Comportamiento de Aplicación
+- Cooperación de Aplicaciones
+- Cooperación Despacho de Mercancias
+- Cooperación Proceso de Negocio
+- Estructura de Aplicación 
+- Infraestructura
+- Organización Domicilio
+- Organización e Implementación
+- Organización Tienda
+- Por Capas
+- Estructura de Información
+- Funciones de Negocio
+- Procesos de Negocio
+- Producto
+- Realización de Servicio
+- Uso de Aplicación
+- Uso de aplicación
+
+
+
 ### Comportamiento de Aplicación
 ![image](https://user-images.githubusercontent.com/41120463/120081096-538d1080-c081-11eb-9461-b842048b5aac.png)
 
